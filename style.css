@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://i.pinimg.com/564x/db/da/14/dbda142cba3b3a225053138d4bf9e211.jpg);
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+    }
+.fondo{
+    width: 5000px;
+    height: 5000px;
+
+}
+
+.login{
+    
+    justify-content: center;
+    margin-left: 30%;
+    font-size: larger;
+    border: 20%;
+    margin-top: 20%;
+    
+}
+.oneclick{
+    color: rgb(227, 38, 224);
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    
+}
