@@ -1,30 +1,81 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(https://i.pinimg.com/564x/db/da/14/dbda142cba3b3a225053138d4bf9e211.jpg);
-  background-repeat: no-repeat;
+font-family: Verdana;
+background-image: url(https://i.pinimg.com/564x/db/da/14/dbda142cba3b3a225053138d4bf9e211.jpg);
+background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+ }
 
-    }
 .fondo{
     width: 5000px;
     height: 5000px;
 
 }
+.titulo1{
+    font-family: arial;
+    justify-content: center;
+}
 
 .login{
     
-    justify-content: center;
-    margin-left: 30%;
-    font-size: larger;
-    border: 20%;
-    margin-top: 20%;
+    font-size: 80%;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(242, 110, 139, 0.815);
+    margin: auto;
+    margin-top: 15%;
+    box-shadow: 7px 12px 32px;
+    padding: 20px 30px;
     
 }
+.logino{
+    font-size: 70%;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(242, 110, 139, 0.815);
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 7px 12px 32px;
+    padding: 20px 30px;
+    
+
+}
+.titulo1{
+    margin-right: 30%;
+    font-family: arial;
+    font-size: 500%;
+    
+    }
 .oneclick{
     color: rgb(227, 38, 224);
     justify-content: center;
     margin-left: 40%;
-    margin-top: 5%;
+    margin-top: 2%;
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 0px;
+    background-color: rgb(211, 109, 171);
+    border: 2px solid#c9438a;
+    background: #efe5ec; color: rgb(225, 150, 196);
+    font-family: arial;
     
 }
+.prin-cuerpo{
+    font-size: 85%;
+    font-family: arial;
+}
+.menu{
+   margin-left: 0%;
+   background-color: #c9438a;
+   border: 2px solid#c9438a;
+}
+.registrarm{
+    margin-left: 30%;
+}
+.contacto{
+    background-color: #c9438a;
+}
+
+
