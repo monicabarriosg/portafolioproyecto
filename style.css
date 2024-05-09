@@ -4,6 +4,7 @@ background-image: url(https://i.pinimg.com/564x/db/da/14/dbda142cba3b3a225053138
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+
  }
 
 .fondo{
@@ -46,7 +47,7 @@ background-size: cover;
     font-size: 500%;
     
     }
-.oneclick{
+.button{
     color: rgb(227, 38, 224);
     justify-content: center;
     margin-left: 40%;
@@ -68,14 +69,19 @@ background-size: cover;
 }
 .menu{
    margin-left: 0%;
-   background-color: #c9438a;
-   border: 2px solid#c9438a;
+   background-color: #d660a1;
+   border: 2px solid#e0a9bb;
+   font-size: 120%;
+   
+   
 }
 .registrarm{
     margin-left: 30%;
 }
 .contacto{
-    background-color: #c9438a;
+    font-family: arial;
+    font-weight: 40px;
+    
 }
 
 
