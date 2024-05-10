@@ -9,14 +9,16 @@
 </head>
 <body>
     <h2>Datos Guardados en LocalStorage</h2>
-    <div id="datosGuardados">
-        <p>Nombre: <span id="Nombre"></span></p>
-        <p>Correo: <span id="correo"></span></p>
-        <p>Contraseña: <span id="contraseña"></span></p>
-        <button class="Click" id="button"> <a href="login.html">Registrarme</a></button>
-        <a href="login.html">Registrarme</a>
-        
+    <label for="fileInput" class="custom-file-upload">
+        <span>Seleccionar Archivo</span>
+        <input type="file" id="fileInput" accept="image/*, .txt, audio/*">
+    </label>
+    <button id="subirArchivo">Subir Archivo</button>
+    
     </div>
+    <input type="text" id="statusInput" readonly>
+<textarea id="responseTextarea" rows="4" readonly></textarea>
+
 
   <script src="portafolio.js"></script>
 </body>
