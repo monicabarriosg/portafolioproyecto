@@ -6,6 +6,21 @@ background-attachment: fixed;
 background-size: cover;
 
  }
+ .oneclick{
+    color: rgb(227, 38, 224);
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 3%;
+    border: none;
+    color: rgb(227, 194, 223);
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 0px;
+    background-color: rgb(211, 109, 171);
+    border: 2px solid#e3937f;
+    background: #e78282; color: rgb(225, 150, 196);
+    font-family: arial;
+ }
 
 .fondo{
     width: 5000px;
@@ -33,7 +48,7 @@ background-size: cover;
     font-size: 70%;
     width: 400px;
     height: 300px;
-    background-color: rgba(242, 110, 139, 0.815);
+    background-color: rgba(245, 174, 130, 0.815);
     margin: auto;
     margin-top: 10%;
     box-shadow: 7px 12px 32px;
@@ -48,12 +63,12 @@ background-size: cover;
     
     }
 .button{
-    color: rgb(227, 38, 224);
+    color: rgb(255, 255, 255);
     justify-content: center;
     margin-left: 40%;
     margin-top: 2%;
     border: none;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 14px 28px;
     cursor: pointer;
     border-radius: 0px;
@@ -64,14 +79,14 @@ background-size: cover;
     
 }
 .prin-cuerpo{
-    font-size: 85%;
+    font-size: 105%;
     font-family: arial;
 }
 .menu{
    margin-left: 0%;
-   background-color: #d660a1;
-   border: 2px solid#e0a9bb;
-   font-size: 120%;
+   background-color: rgba(245, 174, 130, 0.815);
+   border: 2px #e0a9bb;
+   font-size: 130%;
    
    
 }
@@ -104,3 +119,34 @@ background-size: cover;
 .proyectos.html{
     background-image: url(https://i.pinimg.com/564x/83/c9/43/83c94368204cde2b441ec407f30dca78.jpg);
 }
+.imgs{
+   height: 400px;
+   margin-left: 60%;
+}
+.teximg1{
+   
+    margin-right:60%
+}
+.container1 {
+    display: flex; /* Usa flexbox para alinear elementos */
+    align-items: center; /* Alinea verticalmente */
+  }
+.imagen {
+    width: 600px; /* Tamaño de la imagen */
+    height: 500px; /* Altura automática */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+  }
+
+
+
+  /* Estilos para el contenedor de la imagen */
+#imagenContainer {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la imagen */
+  #imagenPreview {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    max-height: 300px; /* Limita la altura máxima de la imagen */
+  }
+  
