@@ -6,46 +6,52 @@
     <title>portafolioproyecto</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="info">
+<div class="info">
+  
+  <h1>Gracias por registrate </h1>
+  <h3>aqui puedes insertar tu informacion personal</h3>
+  <p>Este espacio esta diseñado para que puedas recolectar toda la informacion que cosideres relevante agregar a tu portafolio </p>
+  <form method="post" >
+    <ul>
+      <li>
+        <label for="Nombre">Nombre completo:</label>
+        <input type="text" id="Nombre" />
+      </li>
+      <li>
+        <label for="sobremi">sobre mi:</label>
+        <textarea name="sobremi" id="sobremi" cols="10" rows="10"></textarea>
+      </li>
+      <li>
+        <label for="mensage">proyectos:</label>
+        <textarea name="mensage" id="mensage" cols="10" rows="10"></textarea>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <label for="habilidades">mis habilidades</label>
+        <textarea
+          name="habilidades"
+          id="habilidades"
+          cols="10"
+          rows="10"
+        ></textarea>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <label for="contacto">contacto</label>
+        <input type="contacto" id="contacto" />
+      </li>
+    </ul>
+  </form>
+  <button class="oneclick"><a href="proyectos.html">guardar mi informacion</a></button>
+</div>
 
-    <h1>Gracias por registrate </h1>
-    <h3>aqui puedes insertar tu informacion personal</h3>
-    <h2>Este espacio esta diseñado para que puedas recolectar toda la informacion que cosideres relevante <br>
-    </h2>
-    <form method="post">
-      <ul>
-        <li>
-          <label for="Nombre">Nombre completo:</label>
-          <input type="text" id="Nombre" />
-        </li>
-        <li>
-          <label for="sobremi">sobre mi:</label>
-          <textarea name="sobremi" id="sobremi" cols="10" rows="10"></textarea>
-        </li>
-        <li>
-          <label for="mensage">proyectos:</label>
-          <textarea name="mensage" id="mensage" cols="10" rows="10"></textarea>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <label for="habilidades">mis habilidades</label>
-          <textarea
-            name="habilidades"
-            id="habilidades"
-            cols="10"
-            rows="10"
-          ></textarea>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <label for="contacto">contacto</label>
-          <input type="contacto" id="contacto" />
-        </li>
-      </ul>
-    </form>
-    <button class="oneclick"><a href="proyectos.html">guardar mi informacion</a></button>
+
+
+</div>
+
     
     <script src="portafolio.js"></script>
   </body>
