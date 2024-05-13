@@ -7,7 +7,7 @@ background-size: cover;
 
  }
 .oneclick{
-    color: rgb(227, 38, 224);
+    color: rgb(234, 234, 234);
     justify-content: center;
     margin-left: 40%;
     margin-top: 3%;
@@ -17,8 +17,8 @@ background-size: cover;
     cursor: pointer;
     border-radius: 0px;
     background-color: rgb(211, 109, 171);
-    border: 2px solid#e3937f;
-    background: #e78282; color: rgb(225, 150, 196);
+    border: 2px solid#f3eeed;
+    background: #ffc9f0; color: rgb(225, 150, 196);
     font-family: arial;
  }
 
@@ -132,28 +132,6 @@ background-size: cover;
    
     margin-right:60%
 }
-.container1 {
-    display: flex; /* Usa flexbox para alinear elementos */
-    align-items: center; /* Alinea verticalmente */
-  }
-.imagen {
-    width: 600px; /* Tamaño de la imagen */
-    height: 500px; /* Altura automática */
-    margin-right: 20px; /* Espacio entre la imagen y el texto */
-  }
-
-
-
-  /* Estilos para el contenedor de la imagen */
-#imagenContainer {
-    margin-top: 20px;
-  }
-  
-  /* Estilos para la imagen */
-  #imagenPreview {
-    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
-    max-height: 300px; /* Limita la altura máxima de la imagen */
-  }
   .info{
     background-color: rgba(233, 195, 252, 0.893);
   }

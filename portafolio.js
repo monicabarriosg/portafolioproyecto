@@ -85,29 +85,29 @@ document.getElementById("contacto-link").addEventListener("click", function(even
 let imageUploader = document.getElementById("imageUploader");
 let subirButton = document.getElementById("subir");
 let logoutButton = document.getElementById("logout");
-let galeria = document.getElementById('galeria');
-let titlulos = document.getElementById('titulos');
-let tituloImagen = document.getElementById('tituloImagen');
+let galeria = document.getElementById("galeria");
+let titlulos = document.getElementById("titulos");
+let tituloImagen = document.getElementById("tituloImagen");
 
 // evento del clic para subir la imagen
-subirButton.addEventListener('click', function (){
+subirButton.addEventListener("click", function (){
   const archivo = imageUploader.files[0];
 
   if(archivo){
-    // leer archivo como base 64
+    // para leer archivo como base 64
     const reader = new FileReader();
     reader.onload = function(e) {
 
-    // crear elemento de imagen
+    // eso crea el elemento de imagen
     const imagen = document.createElement("img");
     imagen.src = e.target.result;
     imagen.classList.add("imagen")
 
-    // agregar imagen a la galeria
+    // para agregar una imagen a la galeria 
     galeria.appendChild(imagen);
 
-    // evento de clic para hacer zoom a la imagen
-    imagen.addEventListener('click', function(){
+    // evento de click para hacer zoom a la imagen
+    imagen.addEventListener("click", function(){
       hacerZoom(imagen.src)
     })
   }
@@ -117,14 +117,17 @@ subirButton.addEventListener('click', function (){
 })
 
 // evento de clic para cerrar sesion 
-logoutButton.addEventListener('click', function(){
+logoutButton.addEventListener("click", function(){
 
   // limpiargaleria
   galeria.innerHTML = ""
 })
 
 //proyecto parte de escribir texto 
+localStorage.setItem("nombre", "dato");
 
+    // leer datos
+    var miDato = localStorage.getItem("nombre");
 // Función para subir un archivo
 function uploadFile() {
   // Aqui es para encontrar el elemento de entrada de archivos
