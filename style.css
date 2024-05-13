@@ -6,7 +6,7 @@ background-attachment: fixed;
 background-size: cover;
 
  }
- .oneclick{
+.oneclick{
     color: rgb(227, 38, 224);
     justify-content: center;
     margin-left: 40%;
@@ -83,11 +83,16 @@ background-size: cover;
     font-family: arial;
 }
 .menu{
+    display: inline 90%;
    margin-left: 0%;
-   background-color: rgba(245, 174, 130, 0.815);
-   border: 2px #e0a9bb;
+   background-color: rgba(229, 208, 238, 0.815);
+   border: 2px #fbdfff;
    font-size: 130%;
-   
+   font-family: 'Franklin Gothic Medium',;
+   font-style: italic;
+   text-decoration: none;
+   text-overflow: clip;
+  
    
 }
 .registrarm{
@@ -96,7 +101,7 @@ background-size: cover;
 .contacto{
     font-family: arial;
     font-weight: 40px;
-    
+  
 }
 
 .custom-file-upload {
@@ -149,4 +154,17 @@ background-size: cover;
     max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
     max-height: 300px; /* Limita la altura máxima de la imagen */
   }
-  
+  .info{
+    background-color: rgba(233, 195, 252, 0.893);
+  }
+  .font{
+    background-color: rgb(236, 217, 245);
+  }
+  .Logo{
+    height: 5%;
+    width: 10%;
+  }
+  .footer{
+    margin-top: 30%;
+ 
+  }
